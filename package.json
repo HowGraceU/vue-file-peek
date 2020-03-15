@@ -23,7 +23,7 @@
 	"main": "./out/src/extension",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/sxei/vscode-plugin-demo"
+		"url": "https://github.com/HowGraceU/vue-file-peek"
 	},
 	"scripts": {
 		"compile": "tsc -watch -p ./",
