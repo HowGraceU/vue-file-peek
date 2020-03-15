@@ -1,0 +1,39 @@
+{
+	"name": "vue-file-peek",
+	"displayName": "vue-file-peek",
+	"description": "ctrl + click string to peek file",
+	"license": "MIT",
+	"version": "1.0.0",
+	"publisher": "howgraceu",
+	"keywords": [
+		"javascript",
+		"vue"
+	],
+	"engines": {
+		"vscode": "^1.40.0"
+	},
+	"categories": [
+		"Language Packs"
+	],
+	"activationEvents": [
+		"onLanguage:javascript",
+		"onLanguage:typescript",
+		"onLanguage:vue"
+	],
+	"main": "./out/src/extension",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sxei/vscode-plugin-demo"
+	},
+	"scripts": {
+		"compile": "tsc -watch -p ./",
+		"vscode:prepublish": "tsc -p ./ && npm run test",
+		"postinstall": "node ./node_modules/vscode/bin/install"
+	},
+	"devDependencies": {
+		"@types/node": "^13.7.6",
+		"typescript": "^3.8.2",
+		"vscode": "^1.1.36"
+	},
+	"dependencies": {}
+}
